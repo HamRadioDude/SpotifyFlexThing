@@ -1,0 +1,498 @@
+{
+  "version": "0.9.4",
+  "id": "flex3",
+  "name": "Flex3",
+  "version_code": 9.4,
+  "description": "The default mapping for the DeskThing",
+  "mapping": {
+    "Wheel1": {
+      "1": {
+        "enabled": true,
+        "id": "pref",
+        "source": "server",
+        "value": "0"
+      }
+    },
+    "Wheel2": {
+      "1": {
+        "enabled": true,
+        "id": "pref",
+        "source": "server",
+        "value": "1"
+      }
+    },
+    "Wheel3": {
+      "1": {
+        "enabled": true,
+        "id": "pref",
+        "source": "server",
+        "value": "2"
+      }
+    },
+    "Wheel4": {
+      "1": {
+        "enabled": true,
+        "id": "pref",
+        "source": "server",
+        "value": "3"
+      }
+    },
+    "Tray1": {
+      "1": {
+        "enabled": true,
+        "id": "pref",
+        "source": "server",
+        "value": "0"
+      }
+    },
+    "Tray2": {
+      "1": {
+        "enabled": true,
+        "id": "pref",
+        "source": "server",
+        "value": "1"
+      }
+    },
+    "Tray3": {
+      "1": {
+        "enabled": true,
+        "id": "pref",
+        "source": "server",
+        "value": "2"
+      }
+    },
+    "Tray4": {
+      "1": {
+        "enabled": true,
+        "id": "pref",
+        "source": "server",
+        "value": "3"
+      }
+    },
+    "Tray5": {
+      "1": {
+        "enabled": true,
+        "id": "pref",
+        "source": "server",
+        "value": "4"
+      },
+      "11": {
+        "name": "Hidden Button",
+        "id": "hidden",
+        "description": "Hides the button. Has no action",
+        "source": "server",
+        "version": "0.9.0",
+        "version_code": 9,
+        "enabled": true,
+        "tag": "basic",
+        "value": ""
+      }
+    },
+    "Tray6": {
+      "1": {
+        "enabled": true,
+        "id": "pref",
+        "source": "server",
+        "value": "5"
+      }
+    },
+    "DynamicAction1": {
+      "1": {
+        "id": "shuffle",
+        "source": "server",
+        "value": "toggle",
+        "enabled": true
+      }
+    },
+    "DynamicAction2": {
+      "1": {
+        "id": "repeat",
+        "source": "server",
+        "enabled": true
+      }
+    },
+    "DynamicAction3": {
+      "1": {
+        "id": "rewind",
+        "value": "stop",
+        "source": "server",
+        "enabled": true
+      }
+    },
+    "DynamicAction4": {
+      "1": {
+        "id": "hidden",
+        "source": "server",
+        "enabled": true
+      }
+    },
+    "Action5": {
+      "1": {
+        "id": "hidden",
+        "source": "server",
+        "enabled": true
+      }
+    },
+    "Action6": {
+      "1": {
+        "id": "play",
+        "source": "server",
+        "enabled": true
+      }
+    },
+    "Action7": {
+      "1": {
+        "id": "skip",
+        "source": "server",
+        "enabled": true
+      }
+    },
+    "Digit1": {
+      "1": {
+        "id": "screenVFO",
+        "name": "VFO Screen",
+        "description": "Switch to VFO screen",
+        "tag": "nav",
+        "version": "1.0.0",
+        "version_code": 1,
+        "enabled": true,
+        "source": "flex-thing",
+        "value": "",
+        "value_options": [],
+        "value_instructions": ""
+      },
+      "10": {
+        "id": "screenVFO",
+        "name": "VFO Screen",
+        "description": "Switch to VFO screen",
+        "icon": "Radio",
+        "tag": "nav",
+        "version": "1.0.0",
+        "version_code": 1,
+        "enabled": false,
+        "source": "flex-thing",
+        "value": "",
+        "value_options": [],
+        "value_instructions": ""
+      },
+      "11": {
+        "id": "memory1",
+        "name": "Memory 1",
+        "description": "Recall memory 1",
+        "icon": "Hash",
+        "tag": "basic",
+        "version": "1.0.0",
+        "version_code": 1,
+        "enabled": false,
+        "source": "flex-thing",
+        "value": "",
+        "value_options": [],
+        "value_instructions": ""
+      }
+    },
+    "Digit2": {
+      "1": {
+        "id": "screenDSP",
+        "name": "DSP Screen",
+        "description": "Switch to DSP screen",
+        "tag": "nav",
+        "version": "1.0.0",
+        "version_code": 1,
+        "enabled": true,
+        "source": "flex-thing",
+        "value": "",
+        "value_options": [],
+        "value_instructions": ""
+      },
+      "10": {
+        "id": "screenDSP",
+        "name": "DSP Screen",
+        "description": "Switch to DSP screen",
+        "icon": "Sliders",
+        "tag": "nav",
+        "version": "1.0.0",
+        "version_code": 1,
+        "enabled": false,
+        "source": "flex-thing",
+        "value": "",
+        "value_options": [],
+        "value_instructions": ""
+      },
+      "11": {
+        "id": "memory2",
+        "name": "Memory 2",
+        "description": "Recall memory 2",
+        "icon": "Hash",
+        "tag": "basic",
+        "version": "1.0.0",
+        "version_code": 1,
+        "enabled": false,
+        "source": "flex-thing",
+        "value": "",
+        "value_options": [],
+        "value_instructions": ""
+      }
+    },
+    "Digit3": {
+      "1": {
+        "id": "screenMemory",
+        "name": "Memory Screen",
+        "description": "Switch to Memory screen",
+        "tag": "nav",
+        "version": "1.0.0",
+        "version_code": 1,
+        "enabled": true,
+        "source": "flex-thing",
+        "value": "",
+        "value_options": [],
+        "value_instructions": ""
+      },
+      "10": {
+        "id": "screenMemory",
+        "name": "Memory Screen",
+        "description": "Switch to Memory screen",
+        "icon": "Database",
+        "tag": "nav",
+        "version": "1.0.0",
+        "version_code": 1,
+        "enabled": false,
+        "source": "flex-thing",
+        "value": "",
+        "value_options": [],
+        "value_instructions": ""
+      },
+      "11": {
+        "id": "memory3",
+        "name": "Memory 3",
+        "description": "Recall memory 3",
+        "icon": "Hash",
+        "tag": "basic",
+        "version": "1.0.0",
+        "version_code": 1,
+        "enabled": false,
+        "source": "flex-thing",
+        "value": "",
+        "value_options": [],
+        "value_instructions": ""
+      }
+    },
+    "Digit4": {
+      "1": {
+        "id": "screenTX",
+        "name": "TX Screen",
+        "description": "Switch to TX Power screen",
+        "tag": "nav",
+        "version": "1.0.0",
+        "version_code": 1,
+        "enabled": true,
+        "source": "flex-thing",
+        "value": "",
+        "value_options": [],
+        "value_instructions": ""
+      },
+      "10": {
+        "name": "Hidden Button",
+        "id": "hidden",
+        "description": "Hides the button. Has no action",
+        "source": "server",
+        "version": "0.9.0",
+        "version_code": 9,
+        "enabled": true,
+        "tag": "basic",
+        "value": "",
+        "value_options": [],
+        "value_instructions": ""
+      },
+      "11": {
+        "id": "screenPOTA",
+        "name": "POTA Screen",
+        "description": "Switch to POTA spots screen",
+        "tag": "nav",
+        "version": "1.0.0",
+        "version_code": 1,
+        "enabled": true,
+        "source": "flex-thing",
+        "value": "",
+        "value_options": [],
+        "value_instructions": ""
+      }
+    },
+    "KeyM": {
+      "10": {
+        "id": "open",
+        "source": "server",
+        "value": "dashboard",
+        "enabled": true
+      },
+      "11": {
+        "id": "open",
+        "value": "utility",
+        "source": "server",
+        "enabled": true
+      }
+    },
+    "Scroll": {
+      "2": {
+        "name": "Hidden Button",
+        "id": "hidden",
+        "description": "Hides the button. Has no action",
+        "source": "server",
+        "version": "0.9.0",
+        "version_code": 9,
+        "enabled": true,
+        "tag": "basic",
+        "value": "",
+        "value_options": [],
+        "value_instructions": ""
+      },
+      "3": {
+        "name": "Hidden Button",
+        "id": "hidden",
+        "description": "Hides the button. Has no action",
+        "source": "server",
+        "version": "0.9.0",
+        "version_code": 9,
+        "enabled": true,
+        "tag": "basic",
+        "value": "",
+        "value_options": [],
+        "value_instructions": ""
+      },
+      "4": {
+        "id": "tuneDown",
+        "name": "Tune Down",
+        "description": "Decrease frequency by tuning step",
+        "tag": "basic",
+        "version": "1.0.0",
+        "version_code": 1,
+        "enabled": true,
+        "source": "flex-thing",
+        "value": "",
+        "value_options": [],
+        "value_instructions": ""
+      },
+      "5": {
+        "id": "tuneUp",
+        "name": "Tune Up",
+        "description": "Increase frequency by tuning step",
+        "tag": "basic",
+        "version": "1.0.0",
+        "version_code": 1,
+        "enabled": true,
+        "source": "flex-thing",
+        "value": "",
+        "value_options": [],
+        "value_instructions": ""
+      }
+    },
+    "Enter": {
+      "1": {
+        "id": "cycleStep",
+        "name": "Cycle Tuning Step",
+        "description": "Cycle through tuning step sizes",
+        "tag": "basic",
+        "version": "1.0.0",
+        "version_code": 1,
+        "enabled": true,
+        "source": "flex-thing",
+        "value": "",
+        "value_options": [],
+        "value_instructions": ""
+      },
+      "10": {
+        "id": "tuneDown",
+        "name": "Tune Down",
+        "description": "Decrease frequency by tuning step",
+        "tag": "basic",
+        "version": "1.0.0",
+        "version_code": 1,
+        "enabled": true,
+        "source": "flex-thing",
+        "value": "",
+        "value_options": [],
+        "value_instructions": ""
+      },
+      "11": {
+        "id": "tuneDown",
+        "name": "Tune Down",
+        "description": "Decrease frequency by tuning step",
+        "tag": "basic",
+        "version": "1.0.0",
+        "version_code": 1,
+        "enabled": true,
+        "source": "flex-thing",
+        "value": "",
+        "value_options": [],
+        "value_instructions": ""
+      }
+    },
+    "Escape": {
+      "1": {
+        "id": "atuTune",
+        "name": "ATU Tune",
+        "description": "Start antenna tuner",
+        "tag": "basic",
+        "version": "1.0.0",
+        "version_code": 1,
+        "enabled": true,
+        "source": "flex-thing",
+        "value": "",
+        "value_options": [],
+        "value_instructions": ""
+      },
+      "10": {
+        "id": "atuTune",
+        "name": "ATU Tune",
+        "description": "Start antenna tuner",
+        "tag": "basic",
+        "version": "1.0.0",
+        "version_code": 1,
+        "enabled": true,
+        "source": "flex-thing",
+        "value": "",
+        "value_options": [],
+        "value_instructions": ""
+      },
+      "11": {
+        "id": "appslist",
+        "value": "hide",
+        "source": "server",
+        "enabled": true
+      }
+    },
+    "Swipe": {
+      "6": {
+        "name": "Hidden Button",
+        "id": "hidden",
+        "description": "Hides the button. Has no action",
+        "source": "server",
+        "version": "0.9.0",
+        "version_code": 9,
+        "enabled": true,
+        "tag": "basic",
+        "value": ""
+      },
+      "7": {
+        "name": "Hidden Button",
+        "id": "hidden",
+        "description": "Hides the button. Has no action",
+        "source": "server",
+        "version": "0.9.0",
+        "version_code": 9,
+        "enabled": true,
+        "tag": "basic",
+        "value": ""
+      },
+      "8": {
+        "id": "swipel",
+        "source": "server",
+        "enabled": true
+      },
+      "9": {
+        "id": "swiper",
+        "source": "server",
+        "enabled": true
+      }
+    }
+  }
+}
